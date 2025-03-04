@@ -1,5 +1,5 @@
 '''Запускать через $ pytest -s -p no:pycashe simbir.py --alluredir=allure-results
-    Команда для вывода отчета $ '''
+    Команда для вывода отчета $ allure serve ./allure-results'''
 import pytest
 import allure,os
 from selenium import webdriver
